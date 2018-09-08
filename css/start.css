@@ -1,0 +1,68 @@
+body {
+	background-image: url(salon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 750px;
+}
+
+#logo {
+	width: 300px;
+	height: 50px;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul {
+	margin-top: -60px;
+	float: right;
+	margin-right: 10px;
+}
+
+a {
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 395;
+}
+
+#cytat {
+	position: relative;
+	background-color: gainsboro;
+	opacity: 0.7;
+	top: 300px;
+	left: 100px;
+	text-align: left;
+	color: #ff3333;
+	font-family: 'Roboto', sans-serif;
+	width: 650px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h3 {
+	font-style: italic;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+p {
+	padding: 1px;
+	margin-left: 20px;
+}
