@@ -15,8 +15,12 @@ ul li {
 	display: inline-block;
 }
 
+li a:hover {
+	color: #ff3333;
+}
+
 ul {
-	margin-top: -60px;
+	margin-top: -50px;
 	float: right;
 	margin-right: 10px;
 }

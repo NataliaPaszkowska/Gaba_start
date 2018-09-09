@@ -1,3 +1,16 @@
+body {
+	margin: 0;
+}
+
+
+header {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background-color: white;
+	height: 70px;
+	border: 1px solid grey;
+}
 
 #logo {
 	width: 300px;
@@ -8,11 +21,17 @@
 
 ul li {
 	display: inline-block;
+	text-align: right;
+	
+}
+
+li a:hover {
+	color: #ff3333;
 }
 
 ul {
-	margin-top: -60px;
-	float: right;
+	margin-top: -50px;
+	text-align: right;
 	margin-right: 10px;
 }
 
@@ -24,6 +43,51 @@ a {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 395;
 }
+
+
+
+#photo-items .photo-item {
+	display: inline;
+}
+
+#photo-items img {
+	position: relative;
+	margin-top: 70px;
+	width: 19.68%;
+	height: 180px;
+	left: 2px;
+	right: 2px;
+} 
+
+.col-1-2 {
+	position: relative;
+	display: inline;
+	width: 50%;
+}
+
+#first-step {
+	position: relative;
+	top: 50px;
+}
+.first-step-photo {
+	top: 50px;
+	left: 100px;
+}
+
+.first-step-text {
+	top: 50px;
+	right: 80px;
+	font-family: 'Roboto', sans-serif;
+	float: right;
+}
+
+.first-step-photo img {
+	width: 380px;
+	height: 300px;
+	
+}
+
+
 
 footer {
 	background-color: black;
